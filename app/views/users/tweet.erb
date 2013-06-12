@@ -1,0 +1,33 @@
+<header id="cabecera">
+
+</header>
+
+<div id="body">
+  <div id="column_1">
+    <div id="user">
+      <div id="image">
+        <img src="<%= current_user.picture  %>" alt="<%= current_user.nickname  %>" />
+        <div><label> <%= current_user.name  %> </label></div>
+      </div>
+    </div>
+  </div>
+  <div id="column_2">
+    <div id="register_tweet">
+
+          <div class="field">
+            <label>Tweet</label>
+            <input name="uid" />
+          </div>
+          <div class="actions">
+            <a href=""> Adicionar Tweet </a>
+          </div>
+
+    </div>
+  </div>
+  <div id="column_3">
+    <div id="tweets">
+
+        <div></div>
+    </div>
+  </div>
+</div>
